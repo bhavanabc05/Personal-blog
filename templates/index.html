@@ -1,0 +1,14 @@
+{% extends "base.html" %} {% block content %}
+<h1>Articles</h1>
+{% if posts %}
+<ul class="post-list">
+  {% for post in posts %}
+  <li>
+    <a href="{{ url_for('article', post_id=post.id) }}">{{ post.title }}</a>
+    <span class="date">{{ post.created_at }}</span>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>No articles yet.</p>
+{% endif %} {% endblock %}

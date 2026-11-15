@@ -1,0 +1,15 @@
+{% extends "base.html" %} {% block content %}
+<h1>Edit Article</h1>
+{% if error %}
+<p class="error">{{ error }}</p>
+{% endif %}
+<form method="POST">
+  <label>Title</label>
+  <input type="text" name="title" value="{{ post.title }}" required />
+  <label>Content</label>
+  <textarea name="content" required>{{ post.content }}</textarea>
+  <label>Date</label>
+  <input type="date" name="date" value="{{ post.created_at }}" required />
+  <button type="submit">Update Article</button>
+</form>
+{% endblock %}

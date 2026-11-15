@@ -1,0 +1,4 @@
+data/posts.json
+venv/
+__pycache__/
+.env
