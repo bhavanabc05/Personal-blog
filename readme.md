@@ -2,8 +2,6 @@
 
 A simple, server-rendered personal blog built with **Python + Flask**. It has a public guest section (read articles) and a password-protected admin section (create, edit, delete articles). Articles are stored as plain JSON on the filesystem — no database required.
 
-Built as a solution to the [roadmap.sh Personal Blog project](https://roadmap.sh/projects/personal-blog).
-
 ---
 
 ## ✨ Features
@@ -59,3 +57,7 @@ source venv/bin/activate        # macOS / Linux
 # 3. Install dependencies
 pip install -r requirements.txt
 ```
+## Project Source
+
+Project idea: [GitHub Activity](https://roadmap.sh/projects/personal-blog)
+
