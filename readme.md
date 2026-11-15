@@ -59,5 +59,5 @@ pip install -r requirements.txt
 ```
 ## Project Source
 
-Project idea: [GitHub Activity](https://roadmap.sh/projects/personal-blog)
+Project idea: [Personal Blog](https://roadmap.sh/projects/personal-blog)
 
